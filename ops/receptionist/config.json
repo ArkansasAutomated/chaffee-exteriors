@@ -1,0 +1,33 @@
+{
+  "$comment": "Deployment variables. PLACEHOLDERS to confirm: assistant_name, business_hours. Switch license_insurance_state (and copy the matching answer into license_insurance_answer) the day insurance is bound, and again when the ACLB license is issued.",
+  "business_name": "Chaffee Exteriors",
+  "assistant_name": "Riley",
+  "owner_name": "Dre",
+  "owner_sms": "+14794924232",
+  "public_phone": "(479) 492-4232",
+  "email": "andre@chaffeeexteriors.com",
+  "website": "https://chaffeeexteriors.com",
+  "timezone": "America/Chicago",
+  "business_hours": {
+    "mon-fri": "08:00-18:00",
+    "sat": "09:00-14:00",
+    "sun": "closed"
+  },
+  "service_area": [
+    "Fort Smith",
+    "Chaffee Crossing",
+    "Van Buren",
+    "Alma",
+    "Greenwood",
+    "Barling"
+  ],
+  "license_insurance_state": "none_yet",
+  "license_insurance_answer_options": {
+    "none_yet": "Dre answers that one directly, so he'll cover it when he calls you back. Can I grab your best number?",
+    "insured": "Yes, we carry general liability insurance. Dre can send you a copy of the certificate if you'd like.",
+    "insured_and_licensed": "Yes, we're insured, and we hold an Arkansas Home Improvement license. Dre can send you the details."
+  },
+  "license_insurance_answer": "Dre answers that one directly, so he'll cover it when he calls you back. Can I grab your best number?",
+  "price_cap_residential_single_project": 1999,
+  "sms_consent_required": true
+}

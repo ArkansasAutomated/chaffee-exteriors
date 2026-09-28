@@ -1,0 +1,82 @@
+{
+  "$comment": "Function/tool definitions (OpenAI-style JSON Schema; Retell custom functions and Vapi tools accept this shape). Wire each to an Arkansas Automated webhook.",
+  "tools": [
+    {
+      "name": "log_lead",
+      "description": "Record the caller and intake details. Call on EVERY call before it ends, even if partial.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "name": {"type": "string"},
+          "phone": {"type": "string", "description": "10-digit US number"},
+          "sms_consent": {"type": "boolean"},
+          "address": {"type": "string"},
+          "subdivision": {"type": "string"},
+          "service": {"type": "string", "enum": ["cleaning", "guards", "repair", "house_wash", "roof_wash", "commercial", "new_home_check", "not_sure", "other"]},
+          "stories": {"type": "integer", "enum": [1, 2, 3]},
+          "home_size": {"type": "string", "description": "sq ft or small/average/large"},
+          "preferred_window": {"type": "string"},
+          "access_notes": {"type": "string"},
+          "price_range_quoted": {"type": "string", "description": "Exactly what was said, e.g. 'cleaning 2-story $199-$299'"},
+          "source": {"type": "string", "description": "How they heard about us, if mentioned"},
+          "status": {"type": "string", "enum": ["booked", "callback", "priority_callback", "out_of_area", "info_only"]},
+          "summary": {"type": "string"}
+        },
+        "required": ["phone", "service", "status", "summary"]
+      }
+    },
+    {
+      "name": "priority_callback",
+      "description": "Text Dre immediately for anything possibly over $1,999, anything unpriceable, or urgent water issues. Never quote a number when using this.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "phone": {"type": "string"},
+          "name": {"type": "string"},
+          "address": {"type": "string"},
+          "reason": {"type": "string", "enum": ["possible_over_cap", "new_or_replacement_gutters", "three_story_roof", "multi_service_with_guards", "commercial", "unpriceable", "urgent_water", "caller_requested_dre", "licensing_question"]},
+          "urgent": {"type": "boolean"},
+          "best_time": {"type": "string"},
+          "details": {"type": "string"}
+        },
+        "required": ["phone", "reason", "details"]
+      }
+    },
+    {
+      "name": "check_availability",
+      "description": "Get the next open visit windows from the booking calendar.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "service": {"type": "string"},
+          "preferred_day": {"type": "string"},
+          "count": {"type": "integer", "default": 2}
+        },
+        "required": ["service"]
+      }
+    },
+    {
+      "name": "book_visit",
+      "description": "Book the chosen slot and send the confirmation text (only if sms_consent is true).",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "slot_id": {"type": "string"},
+          "name": {"type": "string"},
+          "phone": {"type": "string"},
+          "address": {"type": "string"},
+          "service": {"type": "string"},
+          "stories": {"type": "integer"},
+          "access_notes": {"type": "string"},
+          "sms_consent": {"type": "boolean"}
+        },
+        "required": ["slot_id", "phone", "address", "service", "sms_consent"]
+      }
+    }
+  ],
+  "messages": {
+    "booking_confirmation_sms": "Chaffee Exteriors: you're booked for {{service}} at {{address}} on {{date}}, {{window}}. Dre confirms the exact price in writing before any work starts. Questions? Reply here or call (479) 492-4232. Reply STOP to opt out.",
+    "owner_priority_sms": "PRIORITY CALLBACK ({{reason}}{{#urgent}}, URGENT{{/urgent}}): {{name}} {{phone}}, {{address}}. {{details}} Best time: {{best_time}}. No price was given.",
+    "owner_lead_sms": "New lead ({{status}}): {{name}} {{phone}}, {{service}}, {{stories}}-story, {{address}}. Quoted: {{price_range_quoted}}."
+  }
+}
