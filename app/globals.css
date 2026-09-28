@@ -127,3 +127,53 @@ h3{font-stretch:104%;letter-spacing:-.02em}
 @media(max-width:800px){.story-wordmark{border-right:0;padding:0 0 10px}.story-badge{width:220px}}
 .header{box-shadow:0 0 0 100vmax var(--paper);clip-path:inset(0 -100vmax)}
 @media(max-width:800px){.hero-art{height:430px}.hero-art>svg{min-height:0}}
+
+/* ===== Guides (/learn) ===== */
+.page-hero h1 .accent,.page-hero h1 em{font-style:normal;color:var(--river)}
+.crumbs{font-family:var(--font-mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;margin-bottom:22px;color:var(--muted)}
+.crumbs a:hover{color:var(--action)}.crumbs span{margin:0 6px;opacity:.5}
+.guide-hero h1{max-width:1000px;font-size:clamp(38px,4.6vw,66px)}
+.guide-layout{display:grid;grid-template-columns:minmax(0,720px) 300px;gap:80px;padding-block:64px 32px;justify-content:space-between}
+.answer-box{background:var(--ink);color:var(--paper);padding:30px 32px;margin-bottom:44px;position:relative}
+.answer-box::before{content:"";position:absolute;left:0;top:0;width:100%;height:4px;background:var(--action)}
+.answer-box .eyebrow{color:var(--sage);margin-bottom:12px}
+.answer-box p{font-size:19px;line-height:1.6;margin:0;color:var(--paper)}
+.prose{font-size:17px;line-height:1.75;color:#24383f}
+.prose h2{font-size:clamp(28px,3vw,38px);margin:52px 0 16px;color:var(--ink)}
+.prose h3{font-size:22px;margin:34px 0 10px;color:var(--ink)}
+.prose p,.prose ul,.prose ol{margin:0 0 20px}
+.prose ul,.prose ol{padding-left:22px}.prose li{margin:8px 0}.prose li::marker{color:var(--river);font-weight:700}
+.prose strong{color:var(--ink)}
+.prose a{color:var(--river);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px;font-weight:600}
+.prose a:hover{color:var(--action)}
+.prose hr{border:0;border-top:1px solid var(--line);margin:44px 0 28px}
+.prose hr+p{font-family:var(--font-display);font-stretch:106%;font-weight:700;font-size:20px;line-height:1.4;color:var(--ink)}
+.prose table{width:100%;border-collapse:collapse;margin:8px 0 26px;font-size:15px}
+.prose th{font-family:var(--font-mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;text-align:left;border-bottom:2px solid var(--ink);padding:10px 12px}
+.prose td{border-bottom:1px solid var(--line);padding:12px}
+.prose blockquote{margin:0 0 20px;padding:4px 0 4px 20px;border-left:3px solid var(--river);color:var(--muted)}
+.guide-faq{margin-top:56px;padding-top:40px;border-top:1px solid var(--line)}
+.guide-faq h2{margin:14px 0 20px;font-size:38px}
+.guide-faq .faq-list p a{color:var(--river);text-decoration:underline}
+.guide-rail{position:relative}
+.rail-card{position:sticky;top:130px;border:1px solid var(--ink);padding:28px;background:var(--paper)}
+.rail-card h3{font-size:26px;margin:14px 0 12px}
+.rail-card p{font-size:14px;color:var(--muted);margin-bottom:22px}
+.rail-card .button{width:100%;margin-left:0}
+.rail-card .call-line{margin-top:14px;font-size:14px}
+.guide-more{border-top:1px solid var(--line)}
+.guide-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;margin-top:26px}
+.guide-card{display:flex;flex-direction:column;gap:14px;border-top:3px solid var(--ink);padding-top:22px;transition:border-color .2s}
+.guide-card:hover{border-color:var(--action)}
+.guide-card h3{font-size:22px;line-height:1.15}
+.guide-card p{font-size:14px;color:var(--muted);margin:0}
+.guide-card .text-link{margin-top:auto;align-self:flex-start}
+.guide-lead{display:block;background:var(--ink);color:var(--paper);padding:48px;margin-bottom:40px;position:relative;overflow:hidden}
+.guide-lead::after{content:"";position:absolute;right:-40px;bottom:-60px;width:320px;height:320px;background:url(/brand/chaffee-mark-reverse.svg) center/contain no-repeat;opacity:.12}
+.guide-lead>div{max-width:720px;position:relative;z-index:1}
+.guide-lead .eyebrow{color:var(--sage)}
+.guide-lead h2{font-size:clamp(30px,3.4vw,48px);margin:16px 0}
+.guide-lead p{color:#D5DDD6;font-size:17px;margin:0 0 22px}
+.guide-lead .text-link{color:var(--paper);border-color:var(--paper)}
+@media(max-width:1000px){.guide-layout{grid-template-columns:1fr;gap:40px}.rail-card{position:static}.guide-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:640px){.guide-grid{grid-template-columns:1fr}.answer-box{padding:24px}.answer-box p{font-size:17px}.guide-lead{padding:28px}.prose{font-size:16px}}
