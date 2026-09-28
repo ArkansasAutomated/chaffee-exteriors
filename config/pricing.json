@@ -1,0 +1,45 @@
+{
+  "$comment": "DRAFT prices from the PRD estimator table - every number needs Dre's sign-off before launch. Edit this file only; no code changes required.",
+  "currency": "USD",
+  "sizeBuckets": [
+    { "label": "Under 1,500 sq ft", "linearFeet": 120 },
+    { "label": "1,500 - 2,500 sq ft", "linearFeet": 160 },
+    { "label": "2,500 - 3,500 sq ft", "linearFeet": 200 },
+    { "label": "Over 3,500 sq ft", "linearFeet": 240 }
+  ],
+  "services": {
+    "cleaning": {
+      "label": "Gutter cleaning",
+      "unit": "per job, by home size",
+      "ranges": [[149, 229], [199, 299], [299, 399]],
+      "sizeAdjustment": [0, 20, 40, 60],
+      "minCharge": 149
+    },
+    "guards": {
+      "label": "Gutter guards (micro-mesh, existing gutters)",
+      "unit": "per linear foot",
+      "ratePerLinearFoot": [12, 14, 16],
+      "minCharge": 599
+    },
+    "house": {
+      "label": "House soft wash",
+      "unit": "per job, by home size",
+      "ranges": [[299, 449], [399, 599], [549, 749]],
+      "sizeAdjustment": [0, 0, 0, 0],
+      "minCharge": 299
+    },
+    "roof": {
+      "label": "Roof soft wash",
+      "unit": "per job, by home size",
+      "ranges": [[399, 599], [499, 749], null],
+      "sizeAdjustment": [0, 0, 0, 0],
+      "minCharge": 399
+    },
+    "repair": {
+      "label": "Repair / re-pitch",
+      "unit": "quote after inspection",
+      "ranges": [null, null, null],
+      "minCharge": 129
+    }
+  }
+}

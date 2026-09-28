@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 1000" fill="none">
+<defs><linearGradient id="sky" x2=".6" y2="1"><stop stop-color="#b5c9c8"/><stop offset="1" stop-color="#eef0e7"/></linearGradient><linearGradient id="wing" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f2f2e9"/><stop offset=".45" stop-color="#9fadb0"/><stop offset="1" stop-color="#536970"/></linearGradient><linearGradient id="body"><stop stop-color="#728b92"/><stop offset=".42" stop-color="#e0e5df"/><stop offset=".7" stop-color="#b0bfc0"/><stop offset="1" stop-color="#526a72"/></linearGradient><linearGradient id="glass"><stop stop-color="#1a3946"/><stop offset=".45" stop-color="#5b7e84"/><stop offset="1" stop-color="#173440"/></linearGradient><pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse"><path d="M80 0H0V80" stroke="#35535d" stroke-opacity=".1"/></pattern><filter id="blur"><feGaussianBlur stdDeviation="16"/></filter><filter id="shadow"><feDropShadow dx="9" dy="22" stdDeviation="14" flood-color="#203d46" flood-opacity=".22"/></filter></defs>
+<path fill="url(#sky)" d="M0 0h960v1000H0z"/><path fill="url(#grid)" d="M0 0h960v1000H0z"/>
+<circle cx="560" cy="402" r="284" stroke="#fff" stroke-opacity=".55"/><circle cx="560" cy="402" r="224" stroke="#fff" stroke-opacity=".3"/><path d="M560 99v32m0 542v32M257 402h32m542 0h32" stroke="#fff"/>
+<g filter="url(#blur)" opacity=".45" fill="#fff"><ellipse cx="198" cy="258" rx="242" ry="44" transform="rotate(-24 198 258)"/><ellipse cx="789" cy="696" rx="319" ry="47" transform="rotate(-24 789 696)"/></g>
+<path d="M-100 1070 493 444M80 1120 547 488" stroke="#fff" stroke-width="3" opacity=".38"/>
+<g transform="translate(500 420) rotate(33)" filter="url(#shadow)">
+<path d="m-23-123-13 81-248 219 8 36 240-80-4 99-68 88 1 25 101-36 101 36 1-25-68-88-4-99 240 80 8-36L36-42l-13-81Z" fill="url(#wing)" stroke="#6d8187" stroke-width="2"/>
+<path d="m-35 73-202 121 211-77m61-44 202 121-211-77" stroke="#71898e" stroke-width="2"/>
+<path d="m-21-153-14 80-19 283 19 83h70l19-83L35-73l-14-80-21-152Z" fill="url(#body)" stroke="#607780" stroke-width="2"/>
+<path d="M0-305c-8 40-16 68-21 105h42c-5-37-13-65-21-105Z" fill="#dbe2dd"/>
+<path d="M0-192c-16 18-22 58-20 88l20 17 20-17c2-30-4-70-20-88Z" fill="url(#glass)" stroke="#59747b" stroke-width="3"/><path d="M-11-160c-4 17-6 31-5 45" stroke="#c1d1ce" opacity=".8" stroke-width="3"/>
+<path d="m-29 78-38 35 9 71 28-12m59-94 38 35-9 71-28-12" fill="#334e59"/>
+<path d="m-24 185-38 57-38 64 62-30 13-56m49-35 38 57 38 64-62-30-13-56" fill="#738a90" stroke="#526f78" stroke-width="2"/>
+<path d="M-27 290h21v26h-21zm33 0h21v26H6z" fill="#28424c"/><path d="M-25 298h17m16 0h17m-50 8h17m16 0h17" stroke="#73868a" stroke-width="2"/>
+<path d="M0-77v338M-31 6h62M-30 39h60M-27 225h54" stroke="#6e8589" stroke-opacity=".7"/><path d="m-154 126-24 21 31-11m301-10 24 21-31-11" stroke="#e3e8e1" stroke-width="5"/>
+</g>
+<g stroke="#42636b" stroke-opacity=".6"><path d="M676 230h135v-50M311 566H169v74"/><circle cx="676" cy="230" r="4" fill="#42636b"/><circle cx="311" cy="566" r="4" fill="#42636b"/></g>
+<g font-family="monospace" font-size="12" fill="#385760" letter-spacing="2"><text x="678" y="165">BUILT ON PRECISION</text><text x="89" y="665">INSPIRED BY FLIGHT</text><text x="42" y="52">CE / FLIGHT STUDY 001</text><text x="680" y="952">FORT SMITH, AR</text></g>
+<path d="M42 78V62h16M918 78V62h-16M42 922v16h16M918 922v16h-16" stroke="#42636b"/>
+</svg>
