@@ -1,54 +1,47 @@
 # Chaffee Exteriors
-A responsive, aviation-inspired Next.js website preview. Custom vector artwork; no stock people, fabricated reviews, or claims of veteran ownership.
+Next.js site for a local, owner-operated exterior-care business. Nine core pages, three paid-traffic pages, privacy/SMS terms, an estimator, and a lead API.
 
-## Run
+## Run and verify
 Node 22+.
 
 ```sh
-npm install
+npm ci
 npm run dev
 npm test
+node --experimental-strip-types tests/lead-delivery.test.ts
 npm run build
 npm start
+# With a running local server and delivery credentials unset:
+node tests/smoke.mjs
 ```
 
-## Edit
-- `lib/site.config.ts`: phone, legal business name, city registration, service areas, eligibility flags, booking URL. `LICENSED`, `INSURED`, and `WASH_RECLAIM` default false. Rebuild after changes.
-- `lib/pricing.json`: draft rates, story and home-size buckets. Cleaning/house/roof arrays are story rows and size columns. Guards use per-foot rates. Estimator applies ±10%, minimums, and the $1,999 upper-range guard. Larger ranges have no numeric output.
-- `content/pages.ts`: editable page copy, included services, and FAQs. Plain TypeScript content data is used in this version instead of MDX.
-- `app/page.tsx`: homepage editorial sections and displayed draft starting rates; update these alongside pricing until all published prices are approved.
-- `app/globals.css`: visual tokens, responsive layouts, controls.
-- `public/flightline.svg`: original aircraft illustration, not a photograph or evidence of work.
+## Pricing and flags
+Edit **`lib/pricing.json`**, the file imported by `lib/pricing.ts`. Its cleaning/house/roof arrays are story rows and home-size columns; guards use per-foot rates. The older `config/pricing.json` is retained but is not used by the application. Neither pricing file nor the cap calculation was modified in the launch polish.
 
-## Built
-Nine core routes, three noindex campaign routes, privacy and SMS pages, shared estimator, request form, server validation and server-side price recalculation, honeypot, configurable Turnstile, webhook delivery, FAQ/service/breadcrumb structured data, sitemap, robots, and llms.txt. Installation returns 404 while disabled. No phone number is fabricated.
+Draft pricing approvals are an owner responsibility. The estimator applies its existing minimums and ±10% range. While `LICENSED=false`, an upper range above $1,999 becomes “Custom quote needed” with no numeric range. Do not split a project to evade the cap. Rebuild after editing prices. Static starting-price copy in `content/pages.ts` and `app/page.tsx` must also be checked when changing rates.
 
-## Before launch — not a completed production integration
-Confirm all draft rates and membership terms, legal entity, phone, city registration number, insurance, operating hours, crews, and service availability. Fill `lib/site.config.ts`. Verify legal requirements independently; this build implements the PRD's restrictive pricing gate, not a legal determination.
+`lib/site.config.ts` controls phone display, telephone href, schema phone, email, service areas, hours, legal details, and flags. Change the three phone representations together. `LICENSED` controls the installation page and footer license details; `INSURED` enables the corresponding footer claim; `WASH_RECLAIM` is reserved and no reclaim claim is currently rendered. Only enable factual claims after documentation is available. Opening hours remain an empty placeholder; fill confirmed hours before launch.
 
-Copy `.env.example` to `.env.local`. Configure Turnstile and an authenticated HTTPS webhook that **durably stores** each lead before returning 2xx. The app deliberately returns 503 without both credentials, and never claims a lead was delivered in preview. Set `NEXT_PUBLIC_LEADS_ENABLED=true` only after end-to-end testing. Do not log customer details.
+## Lead delivery
+Copy `.env.example` to `.env.local` and fill server secrets locally or in Vercel. Never commit secrets.
 
-CRM workflow must deliver owner alerts and requested customer SMS confirmations, honor consent/STOP/HELP, and schedule the 1-hour/24-hour follow-ups. SMS, email, durable lead storage, and retry/outbox infrastructure are not implemented by this site. The form collects no email address, so email confirmation requires a revised data-collection flow. Webhook failures return a visible error; network ambiguity can require operator reconciliation.
+- `LEAD_WEBHOOK_URL`: authenticated HTTPS CRM endpoint. Must durably store a lead before acknowledging it. Optional `LEAD_WEBHOOK_SECRET` is sent as a bearer token.
+- `RESEND_API_KEY`: enables an email notification to `site.EMAIL` for every accepted lead, regardless of webhook outcome. `RESEND_FROM` can override the sender in config; the sending domain must be verified in Resend.
+- `TURNSTILE_SECRET_KEY` and `NEXT_PUBLIC_TURNSTILE_SITE_KEY`: configure both. Public submissions fail closed if the server key is absent. Honeypot and server validation are also enabled.
 
-Booking is a date request, not a confirmed calendar reservation. `components/Booking.tsx` supports a hosted scheduler URL but a configured provider and required address/phone capture need real integration testing. No payments or membership enrollment occur.
+Webhook and email delivery are attempted independently and awaited. At least one must confirm acceptance before the form reports success. If neither is configured, both fail, or spam protection is unavailable, the form provides the call-us fallback. This prevents false success; it cannot guarantee delivery during all network/provider failures. A channel failure with a successful alternate emits an ID-only server log for reconciliation. Email receipt means provider acceptance, not an inbox-delivery guarantee.
 
-GA4, advertising pixels, CAPI, Google Ads, address autocomplete, real reviews, work photos, gutter video, and tracking-number insertion are intentionally not live without credentials and approved data. UTM source is held in session storage; a consent-aware cookie/analytics implementation remains a launch task. Unknown hours/phone/geolocation are not fabricated in structured data. Hero is an original SVG; no video assets have been supplied. Core fonts use the native Arial stack, avoiding external requests. Meta images can be added once approved branding is exported.
+Notifications contain name, phone, address, service, stories, size bucket, server-calculated estimate, date, UTM, page URL, intent, and SMS consent. There is no customer email field. CRM/owner operations must handle customer follow-up, texts, STOP/HELP, and owner alerts. The site does not itself send customer SMS. Do not text users who withheld consent; call them instead. The visible success sentence was specified by the owner, so prompt follow-up must be operational before launch.
 
-Campaign routes use `noindex` and remain crawlable so crawlers can read it, rather than simultaneously blocking them in robots. Their headers/footers have no site-navigation links; required consent-policy links remain in forms.
+`call_click` and `email_click` events are pushed once per click into `window.dataLayer` and dispatched as browser events. GA4, Meta and Google Ads variables are listed in `.env.example`; third-party analytics remain disabled until a consent-aware integration is configured. Event dispatch does not imply remote analytics receipt.
 
-## Deployment
-Use Vercel's Next.js preset, project root this directory. Add production environment values, run the test/build, then connect chaffeeexteriors.com and configure www to redirect to apex. No deployment or DNS change was made by this build.
+## Content and media
+Edit page text/FAQs in `content/pages.ts`; homepage sections in `app/page.tsx`. Contact information belongs only in `lib/site.config.ts`. `public/roofline.svg` is original illustrated artwork, not a job photo. Put `gutter-flow.mp4` and/or `gutter-flow.webm` in `public/`, each at most 2 MB, to enable the campaign video slot after rebuilding. Otherwise it displays the poster. Videos load near visibility, stay muted, loop inline, and respect reduced motion.
 
-## Verification
-`npm test` exhaustively checks all service/story/size combinations and the licensing price gate. `npm run build` typechecks and prerenders routes. Live webhook/SMS/calendar/analytics tests and externally measured Lighthouse/Rich Results acceptance require configured services and a production URL. Do not claim those passed based on a local build.
+## SEO
+Business schema omits a street address and unconfirmed opening hours. Service and breadcrumb data are included on appropriate pages. Sitemap excludes campaigns and policy pages. Campaign pages remain deliberately `noindex` and `/lp/` is disallowed in robots as requested. Therefore Lighthouse's indexability checks can prevent an SEO score of 100 on a campaign page; this is expected, not a reason to make advertising pages indexable.
 
-### Verified in this build (September 28, 2026)
-- Production build and TypeScript checks pass.
-- Pricing self-check passes for all 60 service/story/size combinations, plus custom-quote and enabled-flag boundaries.
-- `node tests/smoke.mjs` passes: 14 routes (12 requested plus two policies), canonical tags, one H1 per route, campaign noindex, installation 404, API validation, and fail-closed unconfigured delivery.
-- Browser DOM checks: all 12 requested routes at 360, 768, and 1280 CSS pixels have no horizontal overflow.
-- Browser interaction: guards at one story and the second size bucket show “Custom quote needed”; request form opens.
-- Browser visual review of homepage desktop/mobile; no captured browser errors.
-- Lighthouse scores, real rich-result eligibility, actual CRM delivery, and live analytics are not verified.
+## Vercel deployment
+Import the private GitHub repository with the Next.js preset, root directory the repository root. Configure environment variables and verified Resend domain, deploy, then add chaffeeexteriors.com and redirect www to apex. Confirm contact/legal details, opening hours, price approval, real lead delivery, SMS operations, and appointment handling before directing paid traffic. No DNS or production deployment is performed by this repository push.
 
-The requested DeepSeek V4.1 Flash subagents were attempted but the provider returned HTTP 400 for that model. Implementation and final review continued on the root model.
+Live provider delivery requires real credentials and a controlled end-to-end test. Booking remains a date request until a scheduler is configured. No payment or automatic membership enrollment occurs.
