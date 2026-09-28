@@ -6,4 +6,8 @@ assert.equal((await fetch(base+'/gutter-installation')).status,404);
 assert.equal((await fetch(base+'/api/lead',{method:'POST',headers:{'Content-Type':'application/json'},body:'{}'})).status,400);
 const result=await fetch(base+'/api/lead',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({name:'Preview Test',phone:'4795550123',address:'123 Test Lane, Fort Smith, AR',date:'2026-12-01',service:'guards',stories:1,size:1})});
 assert.equal(result.status,503,'Unconfigured delivery must fail clearly');
+assert.equal((await result.json()).error,'Online requests are temporarily unavailable. Call (479) 492-4232.');
+const sitemap=await (await fetch(base+'/sitemap.xml')).text();
+for(const excluded of ['/lp/','/privacy','/sms'])assert(!sitemap.includes(excluded));
+assert((await (await fetch(base+'/robots.txt')).text()).includes('Disallow: /lp/'));
 console.log('Smoke checks passed: 14 pages, metadata, installation 404, invalid request and unconfigured delivery.');
