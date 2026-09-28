@@ -2,6 +2,8 @@
 
 Every script is shootable on Dre's phone in one take at a real job. All follow the kit rules: no prohibited claims, no competitor names, no fake urgency, no job implied over $1,999, one CTA per video (spoken + end card). Format: vertical 9:16, 15–45 seconds. Every video ends with end card: "chaffeeexteriors.com · (479) 492-4232".
 
+**Tracking convention for this file:** any caption or profile-link URL uses `?utm_source=social&utm_medium=organic_social&utm_campaign=launch` (swap `utm_source` to `instagram`, `facebook`, or `tiktok` when posting per-platform so channel reporting stays clean). The spoken end-card URL and on-screen text stay clean — they are display, not links.
+
 Hashtag set rotates from this pool (use 4–6 per video, always including #fortsmith):
 `#fortsmith #chaffeecrossing #arkansas #guttercleaning #gutterguards #softwash #housewash #roofcleaning #vanburenar #homemaintenance #foundation #arkansasrivervalley`
 
@@ -10,16 +12,16 @@ Hashtag set rotates from this pool (use 4–6 per video, always including #forts
 ## Block A — Before/Afters (Days 1–10)
 
 ### Day 1
-- **Hook (0–2s):** "This gutter hadn't been cleaned in two years."
+- **Hook (0–2s):** "This is what two years of missed cleanings looks like."
 - **Shots:** Packed gutter close-up → scoop into bucket (fast cuts) → after shot, water flowing → Dre at truck.
 - **On-screen text:** "Before" / "$149 clean-out" / "After"
-- **VO:** "Two years of oak leaves and shingle grit. One hour later, downspouts flushing clean. Gutter cleaning from $149 — most Fort Smith homes $149 to $275."
+- **VO:** "Two years of oak leaves and shingle grit — and about an hour from clean to flowing. Gutter cleaning from $149: 1-story $149 to $229, 2-story $199 to $299, 3-story $299 to $399."
 - **Caption:** Full gutter clean-out in one visit — debris removed by hand, downspouts flushed, photos sent to the homeowner. From $149. #fortsmith #guttercleaning #homemaintenance
 
 ### Day 2
-- **Hook:** "Watch what 48 inches of rain does to a clogged gutter."
+- **Hook:** "Watch what 47 inches of rain does to a clogged gutter."
 - **Shots:** Rain pouring over a clogged gutter edge → water hitting foundation line → cut to clean gutter in rain, all water entering downspout.
-- **On-screen text:** "Fort Smith: 48 inches of rain a year" / "Clogged vs. clean"
+- **On-screen text:** "Fort Smith: 47 inches of rain a year" / "Clogged vs. clean"
 - **VO:** "Same storm, two gutters. One dumps water at the foundation. The other sends it away through the downspout. Which one is yours?"
 - **Caption:** A clogged gutter doesn't just overflow — it dumps thousands of gallons a year right where your foundation lives. Cleaning from $149. #fortsmith #foundation #guttercleaning
 
@@ -66,14 +68,14 @@ Hashtag set rotates from this pool (use 4–6 per video, always including #forts
 - **Caption:** Downspout extensions are boring and they're the best money you'll spend on your house this year. #foundation #fortsmith #homemaintenance
 
 ### Day 9
-- **Hook:** "We cleaned this gutter in March. Here's what grew back by July — no guards."
+- **Hook:** "This gutter was cleaned in March. Here's what grew back by July — no guards."
 - **Shots:** Same-house return visit (reveal) → gutter with fresh seedlings → side-by-side with guarded neighbor gutter (clean).
 - **On-screen text:** "No guards: 4 months" / "With guards: clean"
 - **VO:** "Same street, same trees. One gutter guarded, one not. Guards from $599 — most installations $599 to $1,999, price in writing up front."
 - **Caption:** The cleanest comparison there is: guarded vs. unguarded on the same block. #gutterguards #fortsmith #homemaintenance
 
 ### Day 10
-- **Hook:** "One year ago we cleaned this roof. Look at it now."
+- **Hook:** "This roof was soft washed a year ago. Look at it now."
 - **Shots:** Split: day-of after shot vs. one-year-later shot (both clean) → Dre on ladder pointing.
 - **On-screen text:** "Soft washed 12 months ago" / "Still clean"
 - **VO:** "Soft wash kills growth at the root — that's why it stays clean. One treatment, twelve months, zero streaks back."
@@ -86,7 +88,7 @@ Hashtag set rotates from this pool (use 4–6 per video, always including #forts
 ### Day 11
 - **Hook:** "Your foundation problem started at your gutters."
 - **Shots:** Dre drawing a simple diagram on paper: roof → gutter → downspout → foundation → crack → "diagram only" label. Then cut to real downspout dumping at a foundation.
-- **On-screen text:** "48 inches of rain" / "Expansive clay" / "Water at foundation = movement"
+- **On-screen text:** "47 inches of rain" / "Expansive clay" / "Water at foundation = movement"
 - **VO:** "Fort Smith's clay soil swells when it's wet and shrinks when it's dry. Water dumped at your foundation every storm makes that soil move — and moving soil moves your foundation. Foundation repairs commonly run $10,000 or more."
 - **Caption:** The clay-soil cycle every Fort Smith homeowner should understand. #foundation #fortsmith #homemaintenance
 
@@ -99,8 +101,8 @@ Hashtag set rotates from this pool (use 4–6 per video, always including #forts
 
 ### Day 13
 - **Hook:** "'Foundation repair' is a scary phrase. Here's the prevention math."
-- **Shots:** Whiteboard-style shot: "$149–$275 gutter clean" written on one side, "$10,000+ foundation repair" on the other → Dre circles the first one.
-- **On-screen text:** "$149–$275 / vs. / $10,000+"
+- **Shots:** Whiteboard-style shot: "From $149 gutter clean" written on one side, "$10,000+ foundation repair" on the other → Dre circles the first one.
+- **On-screen text:** "From $149 / vs. / $10,000+"
 - **VO:** "A gutter clean-out costs a couple hundred bucks. Foundation repairs commonly start around ten thousand. Clean gutters aren't cosmetic — they're water management."
 - **Caption:** The cheapest insurance your house can buy. #fortsmith #foundation #homemaintenance
 
@@ -108,7 +110,7 @@ Hashtag set rotates from this pool (use 4–6 per video, always including #forts
 - **Hook:** "New build in Chaffee Crossing? Check this before the first big rain."
 - **Shots:** Walking a new-home lot → gutter with zero pitch (level on gutter) → downspout at foundation → Dre's clipboard checklist close-up.
 - **On-screen text:** "Free 15-min gutter check" / "Chaffee Crossing homes"
-- **VO:** "New construction gutters get installed fast — and we regularly find level gutters and downspouts dumping at the slab. We do a free 15-minute check for Chaffee Crossing homes."
+- **VO:** "New construction gutters get installed fast — and that often means level gutters and downspouts dumping at the slab. That's why we do a free 15-minute check for Chaffee Crossing homes."
 - **Caption:** Free 15-minute gutter check for new Chaffee Crossing homes. No pressure either way. #chaffeecrossing #fortsmith #newhome
 
 ---
@@ -116,16 +118,16 @@ Hashtag set rotates from this pool (use 4–6 per video, always including #forts
 ## Block C — Clogged Downspouts (Days 15–18)
 
 ### Day 15
-- **Hook:** "This downspout was 'fine' — until we flushed it."
+- **Hook:** "A downspout can look 'fine' — until you flush it."
 - **Shots:** Hose into gutter → downspout gurgles, backs up → blast-out of compacted sludge → free flow.
 - **On-screen text:** "Looks fine ≠ flows fine" / "Flush check: included"
 - **VO:** "A gutter can look clear and still have a compacted downspout. That's why we flush every one, every visit."
 - **Caption:** The flush check is the difference between a cleaning and a guess. #guttercleaning #fortsmith #homemaintenance
 
 ### Day 16
-- **Hook:** "We found a bird's nest, a tennis ball, and three years of pine needles."
+- **Hook:** "Downspouts collect bird nests, tennis balls, and years of pine needles."
 - **Shots:** Item-by-item pull from downspout/elbow, laid on a tarp like a museum exhibit → final flush.
-- **On-screen text:** "Actual downspout contents" / "Downspouts cleared from $129 visit"
+- **On-screen text:** "Typical downspout contents" / "Downspouts cleared from $129 visit"
 - **VO:** "Downspout elbows are where everything collects. If your gutters overflow in one spot, this is usually why."
 - **Caption:** Museum of downspout horrors, Fort Smith edition. #guttercleaning #fortsmith #satisfying
 
@@ -162,10 +164,10 @@ Hashtag set rotates from this pool (use 4–6 per video, always including #forts
 - **Caption:** Guards on existing gutters — the upgrade without the replacement. #gutterguards #fortsmith #homemaintenance
 
 ### Day 21
-- **Hook:** "What a $599 guard job actually looks like."
+- **Hook:** "What a $599 guard job looks like."
 - **Shots:** Small home, ~50 ft of gutter → measure → install → rinse test → written quote close-up at start ("$599" visible).
-- **On-screen text:** "Real job. Real price." / "Price shown BEFORE work"
-- **VO:** "Small one-story ranch, about fifty feet of gutter. Guards installed and tested for $599 — and the homeowner had the price in writing before we started."
+- **On-screen text:** "Real price, shown first." / "Price in writing BEFORE work"
+- **VO:** "A small one-story ranch, about fifty feet of gutter: guards installed and tested for $599, with the price in writing before any work starts."
 - **Caption:** What a starting-price guard job actually is — no games, in writing first. #gutterguards #fortsmith #transparency
 
 ### Day 22
@@ -194,10 +196,10 @@ Hashtag set rotates from this pool (use 4–6 per video, always including #forts
 - **Caption:** The whole process, no shortcuts. #softwash #roofcleaning #fortsmith
 
 ### Day 25
-- **Hook:** "This house was going on the market in a week."
+- **Hook:** "A pre-listing wash: one week before photos."
 - **Shots:** Tired exterior → wash in progress → reveal → "under contract"-style wide shot of house looking sharp (no sold signs or claims).
 - **On-screen text:** "Pre-listing refresh" / "House wash from $299"
-- **VO:** "Siding, gutters, and a quick roof edge treatment — one day, one crew, and this house showed completely differently."
+- **VO:** "Siding, gutters, and a quick roof-edge treatment — one day, and the whole exterior shows completely differently."
 - **Caption:** Realtors: a pre-listing exterior wash is the cheapest staging there is. DM us. #fortsmith #realestate #softwash
 
 ### Day 26
@@ -214,8 +216,8 @@ Hashtag set rotates from this pool (use 4–6 per video, always including #forts
 ### Day 27
 - **Hook:** "Gutter cleaning costs in Fort Smith — real numbers."
 - **Shots:** Dre at whiteboard/truck tailgate → simple price ladder graphic → job b-roll.
-- **On-screen text:** "From $149" / "Most homes $149–$275" / "Price confirmed before we start"
-- **VO:** "Gutter cleaning starts at $149. Most Fort Smith homes run $149 to $275 depending on size, stories, and how packed they are. You get the number before we start — always."
+- **On-screen text:** "From $149" / "1-story $149–$229 · 2-story $199–$299 · 3-story $299–$399" / "Price confirmed before we start"
+- **VO:** "Gutter cleaning starts at $149. One-story homes run $149 to $229, two-story $199 to $299, three-story $299 to $399 — plus $20 to $60 for larger homes. You get the number before we start — always."
 - **Caption:** Real prices, published. No "call for a quote" runaround. #fortsmith #guttercleaning #transparency
 
 ### Day 28
@@ -228,8 +230,8 @@ Hashtag set rotates from this pool (use 4–6 per video, always including #forts
 ### Day 29
 - **Hook:** "Soft wash pricing: house and roof, real numbers."
 - **Shots:** Whiteboard → two-column graphic house $299+ / roof $399+ → b-roll of both jobs.
-- **On-screen text:** "House wash from $299 (most $299–$699)" / "Roof wash from $399 (most $399–$1,099)"
-- **VO:** "House soft wash starts at $299 — most homes $299 to $699. Roof soft wash starts at $399, and most roofs run $399 to $1,099. Gutter rinse included on roofs."
+- **On-screen text:** "House wash from $299 (most $299–$749)" / "Roof wash from $399 (1–2 story $399–$749)"
+- **VO:** "House soft wash starts at $299 — most homes $299 to $749. Roof soft wash starts at $399, and most one- and two-story roofs run $399 to $749; three-story roofs are quoted individually. Gutter rinse included on roofs."
 - **Caption:** Soft wash pricing, published up front. #softwash #fortsmith #transparency
 
 ### Day 30

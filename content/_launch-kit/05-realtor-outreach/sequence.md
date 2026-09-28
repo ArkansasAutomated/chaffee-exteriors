@@ -29,7 +29,7 @@ Could I drop off a one-sheet with prices at your office, or is email easier? Eit
 
 Dre
 Chaffee Exteriors
-(479) 492-4232 · chaffeeexteriors.com
+(479) 492-4232 · chaffeeexteriors.com?utm_source=email&utm_medium=email&utm_campaign=launch
 
 ---
 
@@ -53,13 +53,13 @@ If you take a listing this spring that needs its siding, roof streaks, or gutter
 
 The one-sheet: [attach one-pager.md as PDF]
 
-And a standing offer for your sellers: I'll do a free 15-minute gutter check on any new Chaffee Crossing listing so the inspection doesn't surprise anyone. Details: https://chaffeeexteriors.com/lp/chaffee-new-home
+And a standing offer for your sellers: I'll do a free 15-minute gutter check on any new Chaffee Crossing listing so the inspection doesn't surprise anyone. Details: https://chaffeeexteriors.com/lp/chaffee-new-home?utm_source=email&utm_medium=email&utm_campaign=launch
 
 Good luck with your current listings —
 
 Dre
 Chaffee Exteriors
-(479) 492-4232 · chaffeeexteriors.com
+(479) 492-4232 · chaffeeexteriors.com?utm_source=email&utm_medium=email&utm_campaign=launch
 
 ---
 

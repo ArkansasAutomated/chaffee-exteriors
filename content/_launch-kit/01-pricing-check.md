@@ -8,7 +8,7 @@
 
 ## Why this market prices the way it does (context)
 
-- Fort Smith averages **47.34 inches of rain per year** (NOAA 1991–2020 normals via NWS Tulsa), which supports the "~48 inches" figure used in core messaging. Source: https://www.weather.gov/tsa/climo_fortsmith
+- Fort Smith averages **47.34 inches of rain per year** (NOAA 1991–2020 normals via NWS Tulsa), which supports the "about 47 inches a year" figure used in core messaging. Source: https://www.weather.gov/tsa/climo_fortsmith
 - Gutter cleaning in Fort Smith specifically averages about **$0.66 per linear foot**, with ~200 linear feet typical per home. Source: https://todayshomeowner.com/near-me/arkansas/fort-smith/gutter-cleaning/
 - The Southeast region (which includes western Arkansas) runs **$125–$275 per cleaning**, $1.00–$2.00 per linear ft. Source: https://www.crewnest.app/tools/gutter-cleaning-calculator
 
@@ -43,7 +43,7 @@
 
 ### 1. Gutter cleaning — draft: from $149 → **KEEP $149**
 Local Fort Smith market starts at $136 (GreenPal) and averages $150–$275. At $0.66/linear ft × ~200 ft, a typical local cleaning runs ~$132–$275. $149 is a competitive, credible "from" price that sits right at market. No change.
-- Note for ads: say "most homes $149–$275," which matches both GreenPal's local average band and ProMatcher's Arkansas range. Sources: rows 1–3.
+- Note for ads: say "1-story $149–$229, 2-story $199–$299, 3-story $299–$399 (+$20–$60 larger homes)" — the tiers sit inside GreenPal's and ProMatcher's local bands. Short form for ads/headlines: "From $149." Sources: rows 1–3.
 
 ### 2. Micro-mesh gutter guards — draft: from $599; $12/$14/$16 per linear ft (1/2/3 stories) → **KEEP RATES, ADD A CAP DISCLOSURE — compliance flag below**
 Installed micro-mesh nationally runs $6–$13/ft (HomeAdvisor, Bob Vila) with premium branded one-piece systems at $15–$45/ft (HomeAdvisor). Chaffee's $12–$16/ft positions as mid-to-premium against generic installs but well under the national gutter-guard companies' typical quotes — which supports the positioning line "up-front pricing, no in-home pitch." $12/ft is defensible for quality micro-mesh; fine to keep.
@@ -58,7 +58,7 @@ Market band is $250–$800 for a 1–2 story house wash (Housecall Pro 2026; Hom
 
 ### 5. Roof soft wash — draft: from $399 → **KEEP $399, WATCH THE CAP ON LARGE ROOFS**
 National average is $514 (Thumbtack), range $365–$723; $0.30–$0.75/sq ft (CrewNest, QuoteIQ). $399 as a "from" price is at the low end — attractive in ads. 
-> ⚠️ **COMPLIANCE FLAG (Rule 1):** At $0.60–$0.75/sq ft, a 2,700+ sq ft roof can exceed $1,999. Cap roof wash quotes at $1,999 and refer very large/complex roofs. Public copy: "most roof washes $399–$1,099" (aligned to CrewNest's $300–$1,100 band).
+> ⚠️ **COMPLIANCE FLAG (Rule 1):** At $0.60–$0.75/sq ft, a 2,700+ sq ft roof can exceed $1,999. Cap roof wash quotes at $1,999; 3-story and very large roofs are "by quote" in public copy. Public copy: "most one- and two-story roofs $399–$749; 3-story by quote" — never publish $1,099.
 
 ---
 
@@ -78,9 +78,9 @@ National average is $514 (Thumbtack), range $365–$723; $0.30–$0.75/sq ft (Cr
 
 ## Suggested public price language (compliant, for reuse across the kit)
 
-- "Gutter cleaning from $149 — most Fort Smith homes $149–$275."
+- "Gutter cleaning from $149 — 1-story $149–$229, 2-story $199–$299, 3-story $299–$399 (+$20–$60 larger homes)."
 - "Micro-mesh gutter guards from $599 — most installations $599–$1,999, priced by the foot with the number shown up front."
 - "Gutter repair from a $129 service call."
-- "House soft wash from $299 — most homes $299–$699."
-- "Roof soft wash from $399 — most roofs $399–$1,099."
+- "House soft wash from $299 — most homes $299–$749."
+- "Roof soft wash from $399 — most one- and two-story roofs $399–$749; 3-story by quote."
 - Every public piece ends with one CTA: https://chaffeeexteriors.com or (479) 492-4232.

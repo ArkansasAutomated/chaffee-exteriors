@@ -18,7 +18,7 @@ Business facts used throughout: Chaffee Exteriors · https://chaffeeexteriors.co
 
 ## 2. Business description (750-character max)
 
-> Chaffee Exteriors is a Fort Smith–owned gutter and exterior-cleaning company serving Fort Smith, Van Buren, Alma, Greenwood, and Barling. We clean gutters, install micro-mesh guards on existing gutters, repair gutters and downspouts, and soft wash siding and roofs. Prices are shown up front: cleaning from $149, guards from $599, repairs from a $129 service call, house washes from $299, roof washes from $399. No long in-home pitch — a local person answers the phone. Fort Smith gets 48 inches of rain a year; water at your foundation on our expansive clay soil leads to repairs that commonly run $10,000+. Clean gutters and extensions are cheap protection. Commercial work quoted by the job. Call (479) 492-4232 or visit chaffeeexteriors.com.
+> Chaffee Exteriors is a Fort Smith–owned gutter and exterior-cleaning company serving Fort Smith, Van Buren, Alma, Greenwood, and Barling. We clean gutters, install micro-mesh guards on existing gutters, repair gutters and downspouts, and soft wash siding and roofs. Prices are shown up front: cleaning from $149, guards from $599, repairs from a $129 service call, house washes from $299, roof washes from $399. No long in-home pitch — a local person answers. Fort Smith gets about 47 inches of rain a year; water at your foundation on our expansive clay soil leads to repairs that commonly run $10,000+. Clean gutters and extensions are cheap protection. Commercial work quoted by the job. Call (479) 492-4232 or visit chaffeeexteriors.com.
 
 *(Verified: 745 characters — under Google's 750 limit. Re-check if edited.)*
 
@@ -27,7 +27,7 @@ Business facts used throughout: Chaffee Exteriors · https://chaffeeexteriors.co
 ## 3. Services list (each description ≤ 300 characters, with starting price)
 
 **Gutter Cleaning — from $149**
-> Full clean-out of leaves, pine needles, and debris by hand and by blower, with downspout flush-checks and a photo report. Most Fort Smith homes run $149–$275. One-story to three-story homes. Serving Fort Smith, Van Buren, Alma, Greenwood, and Barling.
+> Full clean-out of leaves, pine needles, and debris by hand and by blower, with downspout flush-checks and a photo report. 1-story homes $149–$229, 2-story $199–$299, 3-story $299–$399 (+$20–$60 larger homes). Serving Fort Smith, Van Buren, Alma, Greenwood, and Barling.
 
 **Gutter Guards (micro-mesh, existing gutters) — from $599**
 > Premium micro-mesh guards fitted to your existing gutters — no replacing gutters you don't need replaced. Priced by the foot and shown up front before work starts. Most installations run $599–$1,999. Keeps pine needles and leaf grit out year-round.
@@ -39,10 +39,10 @@ Business facts used throughout: Chaffee Exteriors · https://chaffeeexteriors.co
 > Re-route roof water away from your foundation with new downspout runs, elbows, and splash extensions. On Fort Smith's expansive clay soil, this is the cheapest foundation protection a homeowner can buy.
 
 **House Soft Wash — from $299**
-> Low-pressure soft wash that kills algae, mold, and mildew on siding without the damage risk of high pressure. Safe for vinyl, brick, and painted surfaces. Most homes run $299–$699.
+> Low-pressure soft wash that kills algae, mold, and mildew on siding without the damage risk of high pressure. Safe for vinyl, brick, and painted surfaces. Most homes run $299–$749.
 
 **Roof Soft Wash — from $399**
-> Low-pressure treatment that removes black streaks (roof algae) and kills growth at the root without blasting shingle granules away. Most roofs run $399–$1,099. Free gutter rinse-down included.
+> Low-pressure treatment that removes black streaks (roof algae) and kills growth at the root without blasting shingle granules away. Most one- and two-story roofs run $399–$749; 3-story by quote. Free gutter rinse-down included.
 
 **Commercial Exterior Cleaning — quoted by the job**
 > Gutter cleaning, soft washing, and exterior cleaning for offices, retail, churches, and multi-unit properties in Fort Smith and the River Valley. Written quotes, after-hours work available.
@@ -59,12 +59,12 @@ Photo idea: Dre in front of the work truck with the Chaffee Exteriors logo, tool
 CTA: See pricing at https://chaffeeexteriors.com
 
 **Week 2 — The rain stat**
-Text: Fort Smith gets nearly 48 inches of rain a year. Where does yours go? If your downspouts dump water right at the foundation, that water works on our expansive clay soil all year — and foundation repairs commonly run $10,000+. Clean gutters and downspout extensions are the cheap insurance. Gutter cleaning from $149.
+Text: Fort Smith gets about 47 inches of rain a year. Where does yours go? If your downspouts dump water right at the foundation, that water works on our expansive clay soil all year — and foundation repairs commonly run $10,000+. Clean gutters and downspout extensions are the cheap insurance. Gutter cleaning from $149.
 Photo idea: Close-up of a downspout pouring water into a splash extension during (or staged right after) a rain.
 CTA: Book at https://chaffeeexteriors.com/lp/gutter-cleaning
 
 **Week 3 — Before/after gutter clean**
-Text: This is what 18 months of Fort Smith oak and pine debris looks like inside a gutter — and what it looks like after a Chaffee Exteriors clean-out. Downspouts flushed, photos of everything we found. Gutter cleaning from $149, most homes $149–$275.
+Text: This is what 18 months of Fort Smith oak and pine debris looks like inside a gutter — and what it looks like after a professional clean-out. Downspouts flushed, before/after photos included. Gutter cleaning from $149 — 1-story $149–$229, 2-story $199–$299, 3-story $299–$399.
 Photo idea: Split before/after of a gutter channel — packed debris on the left, clean and flowing on the right.
 CTA: Get your free quote at https://chaffeeexteriors.com/lp/gutter-cleaning
 
@@ -99,7 +99,7 @@ Photo idea: Portrait-style shot of Dre on a ladder or by the truck, work gloves 
 CTA: Call or text (479) 492-4232
 
 **Week 10 — Seasonal reminder (fall leaf drop)**
-Text: The leaves are coming down, and Fort Smith's next 48 inches of rain isn't waiting on anybody. Now's the time for a clean-out before gutters clog, overflow, and dump water at your foundation all winter. Gutter cleaning from $149.
+Text: The leaves are coming down, and Fort Smith's next 47 inches of rain isn't waiting on anybody. Now's the time for a clean-out before gutters clog, overflow, and dump water at your foundation all winter. Gutter cleaning from $149.
 Photo idea: Ladder view of gutters with fresh fall leaves, rake and blower staged below.
 CTA: Book at https://chaffeeexteriors.com/lp/gutter-cleaning
 
@@ -107,7 +107,7 @@ CTA: Book at https://chaffeeexteriors.com/lp/gutter-cleaning
 
 ## 5. Ten Q&A pairs to seed (Dre asks and answers these on the profile)
 
-1. **Q: How much does gutter cleaning cost in Fort Smith?** — A: We charge from $149, and most Fort Smith homes run $149–$275 depending on linear footage, stories, and how packed the gutters are. The price is confirmed up front before we start. You can see details at https://chaffeeexteriors.com/lp/gutter-cleaning.
+1. **Q: How much does gutter cleaning cost in Fort Smith?** — A: We charge from $149 — 1-story homes $149–$229, 2-story $199–$299, 3-story $299–$399, plus $20–$60 for larger homes depending on how packed the gutters are. The price is confirmed up front before we start. You can see details at https://chaffeeexteriors.com/lp/gutter-cleaning.
 
 2. **Q: Do you install new seamless gutters?** — A: Not yet — we focus on cleaning, guards on your existing gutters, and repairs. If your gutters need full replacement, we'll tell you honestly and point you in the right direction.
 
@@ -119,7 +119,7 @@ CTA: Book at https://chaffeeexteriors.com/lp/gutter-cleaning
 
 6. **Q: What is soft washing and is it safe for my roof?** — A: Soft washing uses low pressure and specialized cleaning solution instead of high-pressure water, so it won't strip shingle granules or force water behind siding. It's the recommended method for asphalt shingle roofs. Roof washes start at $399. Details at https://chaffeeexteriors.com.
 
-7. **Q: How often should gutters be cleaned in Fort Smith?** — A: Twice a year for most homes — late spring and late fall — because of our tree cover and roughly 48 inches of annual rain. Homes under heavy pines may need more frequent cleanings, which is where guards can pay off.
+7. **Q: How often should gutters be cleaned in Fort Smith?** — A: Twice a year for most homes — late spring and late fall — because of our tree cover and about 47 inches of annual rain. Homes under heavy pines may need more frequent cleanings, which is where guards can pay off.
 
 8. **Q: Do you do commercial work?** — A: Yes — gutter cleaning, soft washing, and exterior cleaning for offices, retail, churches, and multi-unit properties. Commercial jobs are quoted individually. Email andre@chaffeeexteriors.com or call (479) 492-4232.
 

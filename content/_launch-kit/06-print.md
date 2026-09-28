@@ -22,6 +22,9 @@ Brand system for all three pieces:
 > *(Ember rule line)*
 >
 > **chaffeeexteriors.com/lp/chaffee-new-home**
+>
+> *(QR code on the back encodes the tagged URL:*
+> *`https://chaffeeexteriors.com/lp/chaffee-new-home?utm_source=qrcode&utm_medium=print&utm_campaign=launch`)*
 
 **Back (Storm Slate background, Paper text):**
 
@@ -37,7 +40,7 @@ Brand system for all three pieces:
 > CLEANING FROM $149 · GUARDS $599–$1,999 · REPAIRS FROM $129
 >
 > **(479) 492-4232** *(Archivo Bold, large)*
-> chaffeeexteriors.com
+> chaffeeexteriors.com/?utm_source=doorknocker&utm_medium=print&utm_campaign=launch
 >
 > Serving Chaffee Crossing · Fianna Hills · Southside · Massard · Northside · Van Buren · Alma · Greenwood · Barling
 
@@ -71,7 +74,7 @@ Front only, readable at 40 mph:
 > *(JetBrains Mono label)* GUTTER CLEANING · GUARDS · SOFT WASH
 >
 > **(479) 492-4232** *(Archivo Bold)*
-> chaffeeexteriors.com *(JetBrains Mono)*
+> chaffeeexteriors.com/?utm_source=truck&utm_medium=vehicle&utm_campaign=launch *(JetBrains Mono)*
 >
 > *(Ember corner tag, JetBrains Mono)* FROM $149
 

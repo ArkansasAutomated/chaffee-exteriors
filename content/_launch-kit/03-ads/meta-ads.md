@@ -4,21 +4,23 @@ Nothing here is published. All copy follows the kit rules: no prohibited claims,
 
 **Campaign structure:** 3 campaigns, one per landing page. Objective: Leads (website conversions or lead forms — decide once the Meta pixel/CAPI is set up). Placement: Advantage+ with manual creative control; Reels + Feed primary.
 
+**Tracking convention for this file:** every clickable ad link (primary texts, CTAs, ad-destination URLs) carries `?utm_source=facebook&utm_medium=paid_social&utm_campaign=launch`. Spoken voiceover lines and on-screen display text keep the clean URL — they are not links.
+
 ---
 
-## Campaign 1 — Gutter Cleaning → https://chaffeeexteriors.com/lp/gutter-cleaning
+## Campaign 1 — Gutter Cleaning → https://chaffeeexteriors.com/lp/gutter-cleaning?utm_source=facebook&utm_medium=paid_social&utm_campaign=launch
 
 ### Hooks (first line / video openers)
 1. "Your gutters are full right now. Here's what that's doing to your foundation."
-2. "Fort Smith gets 48 inches of rain a year. Where's yours going?"
-3. "This is what we pulled out of one Fort Smith gutter this week."
+2. "Fort Smith gets about 47 inches of rain a year. Where's yours going?"
+3. "This is what comes out of a typical Fort Smith gutter."
 4. "$149 to stop a $10,000 problem. Do the math."
 5. "If your downspout dumps water next to your house, watch this."
 
 ### Primary texts (≤125 characters)
-1. "Gutter cleaning from $149, price shown up front. No pitch, no pressure. Fort Smith owned — call and a local person answers. https://chaffeeexteriors.com/lp/gutter-cleaning" *(121)*
-2. "48 inches of rain a year on Fort Smith clay soil. Clean gutters are the cheapest foundation protection there is. From $149. https://chaffeeexteriors.com/lp/gutter-cleaning" *(161 — see note)*
-3. "Most Fort Smith homes pay $149–$275 for a full gutter clean-out with downspout flush-checks. Get your up-front price today. https://chaffeeexteriors.com/lp/gutter-cleaning" *(160 — see note)*
+1. "Gutter cleaning from $149, price shown up front. No pitch, no pressure. Fort Smith owned — call and a local person answers. https://chaffeeexteriors.com/lp/gutter-cleaning?utm_source=facebook&utm_medium=paid_social&utm_campaign=launch" *(121)*
+2. "About 47 inches of rain a year on Fort Smith clay soil. Clean gutters are the cheapest foundation protection there is. From $149. https://chaffeeexteriors.com/lp/gutter-cleaning?utm_source=facebook&utm_medium=paid_social&utm_campaign=launch" *(240 incl. UTM URL — see note)*
+3. "One-story homes pay $149–$229, two-story $199–$299, three-story $299–$399 for a full gutter clean-out with downspout flush-checks. Get your up-front price today. https://chaffeeexteriors.com/lp/gutter-cleaning?utm_source=facebook&utm_medium=paid_social&utm_campaign=launch" *(272 incl. UTM URL — see note)*
 
 > Note: Meta allows ~125 chars before truncation in some placements but shows longer texts in Feed. If Dre wants zero truncation everywhere, use text 1 only and rotate hooks as the first line. All three are within Feed display limits.
 
@@ -31,14 +33,14 @@ Nothing here is published. All copy follows the kit rules: no prohibited claims,
 | Time | Shot | On-screen text | Voiceover |
 |---|---|---|---|
 | 0–2s | Close-up: handful of muck scooped from a gutter | "This is in your gutters right now." | "This is what's sitting in your gutters right now." |
-| 2–7s | Water overflowing a clogged gutter corner during rain | "Fort Smith: 48 inches of rain a year" | "Fort Smith gets 48 inches of rain a year, and it's all pouring over the side." |
+| 2–7s | Water overflowing a clogged gutter corner during rain | "Fort Smith: about 47 inches of rain a year" | "Fort Smith gets about 47 inches of rain a year, and it's all pouring over the side." |
 | 7–11s | After shot: clean gutter, water flowing to downspout | "Clean-out from $149" | "A full clean-out starts at $149, with the price shown up front." |
 | 11–15s | Dre at truck, logo visible | "chaffeeexteriors.com" | "Chaffee Exteriors — Fort Smith owned. Get your price at chaffeeexteriors.com." |
 
 ### 30s video script
 | Time | Shot | On-screen text | Voiceover |
 |---|---|---|---|
-| 0–3s | Wide: water sheeting over a clogged gutter, splashing at foundation | "48 inches of rain. Every year." | "Fort Smith gets about 48 inches of rain every single year." |
+| 0–3s | Wide: water sheeting over a clogged gutter, splashing at foundation | "47 inches of rain. Every year." | "Fort Smith gets about 47 inches of rain every single year." |
 | 3–8s | Close-up: muck, granules, seedlings in gutter bottom | "All of it hits your gutters first" | "Every drop hits your roof, your gutters — and if they're clogged, your foundation." |
 | 8–14s | Shot of cracked dirt / heaved soil line at a foundation, then a downspout dumping water at the base | "Clay soil + water = $10,000 repairs" | "Our clay soil swells and shrinks with water, and that's what leads to foundation repairs that commonly run ten thousand dollars or more." |
 | 14–21s | Clean-out sequence: scoop, bucket, flush, fast cuts | "Full clean-out from $149" | "A full gutter clean-out from Chaffee Exteriors starts at $149. We flush the downspouts, and you see photos of everything." |
@@ -47,19 +49,19 @@ Nothing here is published. All copy follows the kit rules: no prohibited claims,
 
 ---
 
-## Campaign 2 — Gutter Guards → https://chaffeeexteriors.com/lp/gutter-guards
+## Campaign 2 — Gutter Guards → https://chaffeeexteriors.com/lp/gutter-guards?utm_source=facebook&utm_medium=paid_social&utm_campaign=launch
 
 ### Hooks
 1. "You don't need new gutters. You need gutters that stay clean."
-2. "National gutter-guard companies will quote you $4,000+. Here's the local alternative."
+2. "Some gutter-guard quotes come with a three-hour presentation. Ours come on one page."
 3. "Watch pine needles lose to this mesh."
 4. "Guards on your existing gutters, priced by the foot, shown up front."
 5. "The 3-hour kitchen-table pitch? We don't do that."
 
 ### Primary texts (≤125 characters)
-1. "Micro-mesh guards on your existing gutters. Most installations $599–$1,999, priced by the foot, shown up front. No sales seminar. https://chaffeeexteriors.com/lp/gutter-guards" *(165 — Feed only)*
-2. "Guards from $599. We put the number in writing before any work starts — that's the whole pitch. Fort Smith owned and operated. https://chaffeeexteriors.com/lp/gutter-guards" *(159 — Feed only)*
-3. "Tired of cleaning gutters twice a year? Micro-mesh guards keep them flowing — installed on the gutters you already have. https://chaffeeexteriors.com/lp/gutter-guards" *(157 — Feed only)*
+1. "Micro-mesh guards on your existing gutters. Most installations $599–$1,999, priced by the foot, shown up front. No sales seminar. https://chaffeeexteriors.com/lp/gutter-guards?utm_source=facebook&utm_medium=paid_social&utm_campaign=launch" *(238 incl. UTM URL — Feed only)*
+2. "Guards from $599. We put the number in writing before any work starts — that's the whole pitch. Fort Smith owned and operated. https://chaffeeexteriors.com/lp/gutter-guards?utm_source=facebook&utm_medium=paid_social&utm_campaign=launch" *(235 incl. UTM URL — Feed only)*
+3. "Tired of cleaning gutters twice a year? Micro-mesh guards keep them flowing — installed on the gutters you already have. https://chaffeeexteriors.com/lp/gutter-guards?utm_source=facebook&utm_medium=paid_social&utm_campaign=launch" *(229 incl. UTM URL — Feed only)*
 
 ### Headlines
 1. "Gutter Guards From $599" *(23)*
@@ -86,7 +88,7 @@ Nothing here is published. All copy follows the kit rules: no prohibited claims,
 
 ---
 
-## Campaign 3 — Chaffee Crossing New Homes → https://chaffeeexteriors.com/lp/chaffee-new-home
+## Campaign 3 — Chaffee Crossing New Homes → https://chaffeeexteriors.com/lp/chaffee-new-home?utm_source=facebook&utm_medium=paid_social&utm_campaign=launch
 
 ### Hooks
 1. "Just moved to Chaffee Crossing? Your gutters need a 15-minute check."
@@ -96,9 +98,9 @@ Nothing here is published. All copy follows the kit rules: no prohibited claims,
 5. "We check pitch, hangers, and downspouts — free for Chaffee Crossing homes."
 
 ### Primary texts
-1. "Free 15-minute gutter check for new Chaffee Crossing homes. Pitch, hangers, downspouts — no pressure, no pitch. Book yours: https://chaffeeexteriors.com/lp/chaffee-new-home" *(146 — Feed only)*
-2. "New in Chaffee Crossing? Builders install gutters fast. We'll check the pitch, hangers, and downspout placement free before the rainy season hits. https://chaffeeexteriors.com/lp/chaffee-new-home" *(166 — Feed only)*
-3. "One free 15-minute visit can save your new foundation from Fort Smith's 48 inches of annual rain. Chaffee Crossing homeowners only. https://chaffeeexteriors.com/lp/chaffee-new-home" *(158 — Feed only)*
+1. "Free 15-minute gutter check for new Chaffee Crossing homes. Pitch, hangers, downspouts — no pressure, no pitch. Book yours: https://chaffeeexteriors.com/lp/chaffee-new-home?utm_source=facebook&utm_medium=paid_social&utm_campaign=launch" *(235 incl. UTM URL — Feed only)*
+2. "New in Chaffee Crossing? Builders install gutters fast. We'll check the pitch, hangers, and downspout placement free before the rainy season hits. https://chaffeeexteriors.com/lp/chaffee-new-home?utm_source=facebook&utm_medium=paid_social&utm_campaign=launch" *(258 incl. UTM URL — Feed only)*
+3. "One free 15-minute visit can save your new foundation from Fort Smith's 47 inches of annual rain. Chaffee Crossing homeowners only. https://chaffeeexteriors.com/lp/chaffee-new-home?utm_source=facebook&utm_medium=paid_social&utm_campaign=launch" *(243 incl. UTM URL — Feed only)*
 
 ### Headlines
 1. "Free Gutter Check — Chaffee Crossing" *(35)*
@@ -117,8 +119,8 @@ Nothing here is published. All copy follows the kit rules: no prohibited claims,
 | Time | Shot | On-screen text | Voiceover |
 |---|---|---|---|
 | 0–3s | Aerial-ish street pan of new construction in Chaffee Crossing | "Chaffee Crossing, Fort Smith" | "Chaffee Crossing is growing fast — and a lot of these homes are brand-new builds." |
-| 3–8s | Gutter close-ups: loose hanger, flat pitch, downspout dumping at foundation | "Installed fast ≠ installed right" | "Here's what we see on new homes: gutters hung level instead of pitched, downspouts dumping right at the foundation line." |
-| 8–14s | Clay soil shot, then water pooling at a foundation edge | "48 inches of rain a year" | "Remember, Fort Smith gets about 48 inches of rain a year. On expansive clay soil, that water at your foundation is exactly what causes big-dollar repairs later." |
+| 3–8s | Gutter close-ups: loose hanger, flat pitch, downspout dumping at foundation | "Installed fast ≠ installed right" | "Here's what's common on new homes: gutters hung level instead of pitched, downspouts dumping right at the foundation line." |
+| 8–14s | Clay soil shot, then water pooling at a foundation edge | "47 inches of rain a year" | "Remember, Fort Smith gets about 47 inches of rain a year. On expansive clay soil, that water at your foundation is exactly what causes big-dollar repairs later." |
 | 14–20s | Dre with clipboard at a front door, friendly | "Free 15-minute gutter check" | "So we do a free 15-minute gutter check for new Chaffee Crossing homes — pitch, hangers, downspout placement, and whether guards make sense." |
 | 20–25s | Dre direct to camera | "No pressure either way" | "Whatever we find, you get the facts. Fix it yourself, hire us, or don't — no pressure either way." |
 | 25–30s | Logo card | "(479) 492-4232 · chaffeeexteriors.com" | "Book your free check at chaffeeexteriors.com/lp/chaffee-new-home, or call (479) 492-4232." |
