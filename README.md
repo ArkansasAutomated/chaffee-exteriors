@@ -45,3 +45,10 @@ Business schema omits a street address and unconfirmed opening hours. Service an
 Import the private GitHub repository with the Next.js preset, root directory the repository root. Configure environment variables and verified Resend domain, deploy, then add chaffeeexteriors.com and redirect www to apex. Confirm contact/legal details, opening hours, price approval, real lead delivery, SMS operations, and appointment handling before directing paid traffic. No DNS or production deployment is performed by this repository push.
 
 Live provider delivery requires real credentials and a controlled end-to-end test. Booking remains a date request until a scheduler is configured. No payment or automatic membership enrollment occurs.
+
+## Brand
+Official brand kit (logos, palette, type, voice): the "Chaffee Exteriors Brand Kit" design system artifact.
+All logo files are generated from one source: `python3 brand/build.py` (needs `pip install fonttools brotli cairosvg`).
+Outputs: `public/brand/*.svg`, `public/brand/png/*`, `app/icon.svg`, `app/apple-icon.png`, `app/favicon.ico`,
+`app/opengraph-image.png`, `lib/brand-paths.ts` (inline header/footer logo). Never hand-edit those.
+Fonts: Archivo (display, 800 @ 108% width), Inter (body), JetBrains Mono (labels), self-hosted via @fontsource.

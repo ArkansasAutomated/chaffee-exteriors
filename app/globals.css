@@ -77,3 +77,53 @@
 @media(max-width:767px){.hero-scene .h-callout{display:none}}
 @media(prefers-reduced-motion:reduce){.hero-scene *{animation:none!important}.hero-scene .h-ripple.r1{opacity:.7}}
 .landing-scene svg{width:100%;height:100%;display:block}.landing-media .h-callout,.landing-media .h-label{display:none}
+
+/* ===== Chaffee Exteriors brand layer (see /brand + Design System) ===== */
+:root{--ink:#172D35;--river:#42695B;--action:#BF4824;--action-dark:#9E3A1C;--water:#4FA3B6;--sage:#8FC1A9;--paper:#F7F6EF;--mist:#E9EEE5;--line:#D7DDD3;--muted:#5A6969;
+ --font-display:'Archivo Variable',Archivo,'Arial Black',sans-serif;--font-body:'Inter Variable',Inter,system-ui,-apple-system,'Segoe UI',sans-serif;--font-mono:'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,monospace}
+body{font-family:var(--font-body);font-feature-settings:'ss01','cv11';-webkit-font-smoothing:antialiased}
+h1,h2,h3{font-family:var(--font-display);font-weight:800;font-stretch:108%;letter-spacing:-.035em}
+h1{font-size:clamp(46px,5.6vw,88px);line-height:.96}
+.hero h1{font-size:clamp(46px,5.4vw,84px)}
+h3{font-stretch:104%;letter-spacing:-.02em}
+.eyebrow,.utility,.price-note,.area-band span,.hero-bottom,.footer-bottom,.h-label{font-family:var(--font-mono)}
+.eyebrow{font-weight:700;letter-spacing:.16em}
+.button{font-family:var(--font-display);font-stretch:112%;font-weight:700;letter-spacing:.01em}
+.button:hover{background:var(--action-dark)}
+.hero-scene .h-callout text,.hero-scene .h-label text{font-family:var(--font-mono)}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+
+/* logo lockup */
+.brand{display:inline-flex;align-items:center;gap:14px;line-height:1;letter-spacing:0;font-size:inherit}
+.brand .brand-mark{width:auto;height:48px;flex:none}
+.brand .brand-word{width:auto;height:34px;flex:none}
+.brand-mark .m-roof{fill:var(--ink)}.brand-mark .m-rail{fill:var(--river)}.brand-mark .m-drop{fill:var(--action)}
+.brand-word .w-main{fill:var(--ink)}.brand-word .w-sub{fill:var(--river)}
+.brand-reverse .brand-mark .m-roof,.brand-reverse .brand-word .w-main{fill:var(--paper)}
+.brand-reverse .brand-mark .m-rail,.brand-reverse .brand-word .w-sub{fill:var(--sage)}
+.brand:hover .m-drop{animation:drip .9s ease-in-out}
+@keyframes drip{40%{transform:translateY(10px)}100%{transform:translateY(0)}}
+.brand .m-drop{transform-box:fill-box}
+.about-accent{width:auto;height:auto}.about-accent .brand-mark{height:56px;width:auto}
+.about-accent .m-roof{fill:var(--ink)}.about-accent .m-rail{fill:var(--river)}.about-accent .m-drop{fill:var(--action)}
+@media(max-width:800px){.brand .brand-mark{height:40px}.brand .brand-word{height:28px}.brand{gap:11px}}
+@media(max-width:420px){.brand .brand-mark{height:34px}.brand .brand-word{height:23px}}
+.lp-header .brand .brand-word{height:30px}
+
+/* footer: storm slate, reverse logo, oversized wordmark */
+.footer{background:var(--ink);color:var(--paper);position:relative;overflow:hidden}
+.footer a{color:var(--paper)}.footer a:hover{color:var(--sage)}
+.footer p,.footer-top>div>a:not(.brand){color:#D5DDD6}
+.footer .eyebrow{color:var(--sage)}
+.footer h3{color:var(--paper)}
+.footer-bottom{border-top:1px solid rgba(247,246,239,.14);color:#A9B8B2;position:relative}
+.footer-bottom a{color:#A9B8B2}
+.footer-watermark{width:calc(100% - 40px);max-width:1400px;margin:10px auto -2px;opacity:.07;pointer-events:none}
+.footer-watermark svg{display:block;width:100%;height:auto}
+.footer-watermark .w-main,.footer-watermark .w-sub{fill:var(--paper)}
+.story-wordmark{display:grid;place-items:center;padding-right:40px;font-size:0}
+.story-badge{width:min(100%,340px);height:auto;transition:transform .8s cubic-bezier(.2,.8,.2,1)}
+.story-section:hover .story-badge{transform:rotate(-8deg) scale(1.02)}
+@media(max-width:800px){.story-wordmark{border-right:0;padding:0 0 10px}.story-badge{width:220px}}
+.header{box-shadow:0 0 0 100vmax var(--paper);clip-path:inset(0 -100vmax)}
+@media(max-width:800px){.hero-art{height:430px}.hero-art>svg{min-height:0}}
