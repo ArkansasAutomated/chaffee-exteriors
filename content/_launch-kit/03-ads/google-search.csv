@@ -1,0 +1,120 @@
+# Chaffee Exteriors — Google Search build sheet (DRAFT for Dre's approval)
+# Section 1: Keywords. Columns exactly: campaign, ad group, keyword, match type
+# Section 2: RSA assets (headlines <=30 chars, descriptions <=90 chars)
+# Section 3: Negative keyword block (campaign-level, all match types)
+campaign,ad group,keyword,match type
+Search - Gutter Cleaning, gutter cleaning fort smith,gutter cleaning fort smith,exact
+Search - Gutter Cleaning, gutter cleaning fort smith,gutter cleaning fort smith ar,phrase
+Search - Gutter Cleaning, gutter cleaning fort smith,[gutter cleaners near me],phrase
+Search - Gutter Cleaning, gutter cleaning near me,gutter cleaning near me,phrase
+Search - Gutter Cleaning, gutter cleaning cost,gutter cleaning cost,phrase
+Search - Gutter Cleaning, gutter cleaning cost,how much does gutter cleaning cost,phrase
+Search - Gutter Cleaning, gutter cleaning van buren,gutter cleaning van buren ar,phrase
+Search - Gutter Cleaning, gutter cleaning alma,gutter cleaning alma ar,phrase
+Search - Gutter Cleaning, gutter cleaning greenwood,gutter cleaning greenwood ar,phrase
+Search - Gutter Cleaning, gutter cleaning barling,gutter cleaning barling ar,phrase
+Search - Gutter Guards, gutter guards fort smith,gutter guards fort smith,exact
+Search - Gutter Guards, gutter guards fort smith,gutter guards fort smith ar,phrase
+Search - Gutter Guards, gutter guards cost,gutter guard cost per foot,phrase
+Search - Gutter Guards, gutter guards cost,how much do gutter guards cost,phrase
+Search - Gutter Guards, gutter guards near me,gutter guard installation near me,phrase
+Search - Gutter Guards, leaf guards fort smith,leaf guards fort smith,phrase
+Search - Gutter Guards, leaf guards fort smith,leaf guard installation,phrase
+Search - Gutter Guards, gutter guards cost,micro mesh gutter guards,phrase
+Search - Gutter Guards, gutter guards van buren,gutter guards van buren ar,phrase
+Search - Soft Wash, house washing fort smith,house washing fort smith,exact
+Search - Soft Wash, house washing fort smith,soft wash house fort smith,phrase
+Search - Soft Wash, soft wash near me,soft wash near me,phrase
+Search - Soft Wash, soft wash near me,soft washing service,phrase
+Search - Soft Wash, roof cleaning fort smith,roof cleaning fort smith,phrase
+Search - Soft Wash, roof cleaning fort smith,roof soft wash,phrase
+Search - Soft Wash, roof cleaning fort smith,remove black streaks roof,phrase
+Search - Soft Wash, house washing van buren,soft wash van buren ar,phrase
+Search - Soft Wash, pressure washing fort smith,pressure washing fort smith (soft-wash-only landing),phrase
+# RSA ASSETS — headlines must be <=30 characters, descriptions <=90 characters. Pin none initially; let Google rotate.
+# campaign,ad group,asset type,asset text
+Search - Gutter Cleaning,gutter cleaning fort smith,headline,Gutter Cleaning From $149
+Search - Gutter Cleaning,gutter cleaning fort smith,headline,Fort Smith Owned & Operated
+Search - Gutter Cleaning,gutter cleaning fort smith,headline,Price Shown Up Front
+Search - Gutter Cleaning,gutter cleaning fort smith,headline,No Pitch. No Pressure.
+Search - Gutter Cleaning,gutter cleaning fort smith,headline,Serves VB Alma Greenwood
+Search - Gutter Cleaning,gutter cleaning fort smith,headline,Most Homes $149-$275
+Search - Gutter Cleaning,gutter cleaning fort smith,headline,Downspouts Flushed & Checked
+Search - Gutter Cleaning,gutter cleaning fort smith,headline,Photos Of The Work
+Search - Gutter Cleaning,gutter cleaning fort smith,headline,Call (479) 492-4232
+Search - Gutter Cleaning,gutter cleaning fort smith,headline,Book Online In Minutes
+Search - Gutter Cleaning,gutter cleaning fort smith,description,Gutter cleaning from $149, price up front. Fort Smith owned. Most homes $149-$275.
+Search - Gutter Cleaning,gutter cleaning fort smith,description,Downspouts flushed, photo report included. No in-home pitch. Serving Fort Smith, Van Buren, Alma.
+Search - Gutter Cleaning,gutter cleaning fort smith,description,48 inches of rain a year. Clean gutters protect your foundation. Get pricing today.
+Search - Gutter Cleaning,gutter cleaning near me,headline,Gutter Cleaning Near You
+Search - Gutter Cleaning,gutter cleaning near me,headline,From $149. Price Up Front.
+Search - Gutter Cleaning,gutter cleaning near me,headline,Local Crew. Local Answers.
+Search - Gutter Cleaning,gutter cleaning near me,headline,Downspouts Flushed Included
+Search - Gutter Cleaning,gutter cleaning near me,description,Full clean-out from $149, most homes $149-$275. Photo report included. chaffeeexteriors.com
+Search - Gutter Cleaning,gutter cleaning near me,description,Fort Smith owned gutter cleaning. No pressure, no pitch. Book at chaffeeexteriors.com
+Search - Gutter Cleaning,gutter cleaning cost,headline,Gutter Cleaning Prices
+Search - Gutter Cleaning,gutter cleaning cost,headline,From $149. See Real Pricing.
+Search - Gutter Cleaning,gutter cleaning cost,headline,Most Homes $149-$275
+Search - Gutter Cleaning,gutter cleaning cost,headline,No Estimate Games
+Search - Gutter Cleaning,gutter cleaning cost,description,Real up-front pricing: gutter cleaning from $149, most Fort Smith homes $149-$275. See prices online.
+Search - Gutter Cleaning,gutter cleaning cost,description,No "call for a quote" runaround. Prices are published. chaffeeexteriors.com
+Search - Gutter Guards,gutter guards fort smith,headline,Gutter Guards From $599
+Search - Gutter Guards,gutter guards fort smith,headline,Fits Existing Gutters
+Search - Gutter Guards,gutter guards fort smith,headline,Most Installs $599-$1,999
+Search - Gutter Guards,gutter guards fort smith,headline,Price In Writing First
+Search - Gutter Guards,gutter guards fort smith,headline,No Kitchen-Table Pitch
+Search - Gutter Guards,gutter guards fort smith,headline,Micro-Mesh. Needles Out.
+Search - Gutter Guards,gutter guards fort smith,headline,Fort Smith Owned
+Search - Gutter Guards,gutter guards fort smith,headline,$12-$16 Per Linear Foot
+Search - Gutter Guards,gutter guards fort smith,headline,Call (479) 492-4232
+Search - Gutter Guards,gutter guards fort smith,description,Micro-mesh guards on your existing gutters. Most installations $599-$1,999, priced by the foot, in writing up front.
+Search - Gutter Guards,gutter guards fort smith,description,No sales seminar, no pressure. Fort Smith owned. See how the mesh works at chaffeeexteriors.com
+Search - Gutter Guards,gutter guards fort smith,description,Guards keep pine needles and grit out year-round. Free quote, price confirmed before work starts.
+Search - Gutter Guards,gutter guards cost,headline,Gutter Guard Prices
+Search - Gutter Guards,gutter guards cost,headline,$12-$16 Per Foot Installed
+Search - Gutter Guards,gutter guards cost,headline,Most Installs $599-$1,999
+Search - Gutter Guards,gutter guards cost,headline,Written Quote Up Front
+Search - Gutter Guards,gutter guards cost,description,Published pricing: $12-$16 per linear foot installed, most installations $599-$1,999. Written quote up front.
+Search - Gutter Guards,gutter guards cost,description,Guards on existing gutters from $599. No pitch, no pressure. chaffeeexteriors.com/lp/gutter-guards
+Search - Soft Wash,house washing fort smith,headline,House Soft Wash From $299
+Search - Soft Wash,house washing fort smith,headline,Low Pressure. Safe Siding.
+Search - Soft Wash,house washing fort smith,headline,Kills Algae & Mildew
+Search - Soft Wash,house washing fort smith,headline,Most Homes $299-$699
+Search - Soft Wash,house washing fort smith,headline,Fort Smith Owned Crew
+Search - Soft Wash,house washing fort smith,headline,Roof Wash From $399
+Search - Soft Wash,house washing fort smith,description,Soft wash kills algae and mildew at the root. No high pressure. House washes from $299.
+Search - Soft Wash,house washing fort smith,description,Low-pressure soft wash for siding and roofs. Fort Smith owned, prices up front. chaffeeexteriors.com
+Search - Soft Wash,roof cleaning fort smith,headline,Roof Soft Wash From $399
+Search - Soft Wash,roof cleaning fort smith,headline,Black Streaks Gone
+Search - Soft Wash,roof cleaning fort smith,headline,Safe For Shingles
+Search - Soft Wash,roof cleaning fort smith,headline,Gutter Rinse Included
+Search - Soft Wash,roof cleaning fort smith,headline,Most Roofs $399-$1,099
+Search - Soft Wash,roof cleaning fort smith,description,Roof algae killed at the root, not blasted. Low-pressure soft wash from $399, gutter rinse included.
+Search - Soft Wash,roof cleaning fort smith,description,Black streaks are algae eating your shingles. Soft wash from $399. chaffeeexteriors.com
+# NEGATIVE KEYWORD BLOCK — apply campaign-wide. Blocks DIYers, job seekers, seamless/new-install buyers, and gutter-material shoppers we don't serve.
+# campaign,negative keyword,match type,reason
+ALL,jobs,phrase,job seekers
+ALL,hiring,phrase,job seekers
+ALL,employment,phrase,job seekers
+ALL,salary,phrase,job seekers
+ALL,career,phrase,job seekers
+ALL,DIY,phrase,do-it-yourselfers
+ALL,do it yourself,phrase,do-it-yourselfers
+ALL,home depot,phrase,DIY materials
+ALL,lowes,phrase,DIY materials
+ALL,amazon,phrase,DIY materials
+ALL,seamless gutters,phrase,we do not install new gutters (Rule 1)
+ALL,gutter installation,phrase,new-install buyers (we only fit guards on existing)
+ALL,new gutters,phrase,new-install buyers
+ALL,gutter replacement,phrase,replacement buyers
+ALL,gutter cost per foot installed new,phrase,material/install shoppers
+ALL,rain gutters for sale,phrase,material shoppers
+ALL,gutter machine,phrase,contractor equipment
+ALL,wholesale,phrase,B2B material buyers
+ALL,supplier,phrase,B2B material buyers
+ALL,free,phrase,tire-kickers (note: exception - our free Chaffee Crossing check is on its own LP; monitor conversions before keeping this negative),phrase
+ALL,how to clean gutters,phrase,DIY informational
+ALL,clean gutters yourself,phrase,DIY informational
+ALL,repair license,phrase,off-target
+ALL,insurance claim,phrase,storm-chaser segment we don't target at launch
+ALL,church,phrase,organizational - commercial goes through quote channel (monitor)
