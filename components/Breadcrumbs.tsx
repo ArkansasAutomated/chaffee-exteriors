@@ -1,0 +1,2 @@
+import {site} from '@/lib/site.config';
+export default function Breadcrumbs({path,name}:{path:string;name:string}){return <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify({'@context':'https://schema.org','@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'Home',item:site.url},{'@type':'ListItem',position:2,name,item:site.url+path}]})}}/>}
