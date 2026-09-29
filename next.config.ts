@@ -4,6 +4,17 @@ const nextConfig: NextConfig = {
   outputFileTracingRoot: process.cwd(),
   reactStrictMode: true,
   poweredByHeader: false,
+  async redirects() {
+    // One canonical host: www -> apex, permanent.
+    return [
+      {
+        source: '/:path*',
+        has: [{ type: 'host', value: 'www.chaffeeexteriors.com' }],
+        destination: 'https://chaffeeexteriors.com/:path*',
+        permanent: true,
+      },
+    ];
+  },
   async headers() {
     return [
       {
