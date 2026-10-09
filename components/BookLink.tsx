@@ -9,6 +9,8 @@ const byPath: Record<string, string> = {
   '/gutter-guards': site.BOOKING_BY_SERVICE.guards,
   '/gutter-repair': site.BOOKING_BY_SERVICE.repair,
   '/soft-wash': site.BOOKING_BY_SERVICE.house,
+  '/holiday-lights': site.BOOKING_BY_SERVICE.lights,
+  '/porch-decorating': site.BOOKING_BY_SERVICE.porch,
   '/lp/gutter-cleaning': site.BOOKING_BY_SERVICE.cleaning,
   '/lp/gutter-guards': site.BOOKING_BY_SERVICE.guards,
   '/lp/chaffee-new-home': site.BOOKING_BY_SERVICE.cleaning,
@@ -19,6 +21,7 @@ export function bookUrlForPath(pathname: string) {
 }
 
 export function bookUrlForService(service: Service) {
+  if (service === 'roof') return null;
   return site.BOOKING_BY_SERVICE[service];
 }
 

@@ -7,7 +7,9 @@ const services: [string, string, string][] = [
   ['Gutter Cleaning', '/gutter-cleaning', 'From $149'],
   ['Gutter Guards', '/gutter-guards', 'Micro-mesh, from $599'],
   ['Gutter Repair', '/gutter-repair', '$129 service call'],
-  ['Soft Wash', '/soft-wash', 'House & roof'],
+  ['Soft Wash', '/soft-wash', 'House wash from $299'],
+  ['Holiday Lights', '/holiday-lights', '$399 install and takedown'],
+  ['Porch Decorating', '/porch-decorating', '$249, one holiday'],
   ['For Realtors & Property Managers', '/realtors', 'Pre-listing & turnovers'],
 ];
 
