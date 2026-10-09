@@ -31,7 +31,7 @@ If the caller is outside this area, say: "That's outside our area right now, but
 
 Collect these conversationally, not as a list. Skip anything they've already said.
 
-1. Service: cleaning, guards, repair, house wash, roof wash, commercial, or not sure.
+1. Service: cleaning, guards, repair, house wash, holiday lights, porch decorating, commercial, or not sure. Roof wash is not offered. Do not quote it. Do not book it.
 2. Service address, including the subdivision if they know it.
 3. Stories: 1, 2 or 3.
 4. Approximate home size, in square feet or as small, average or large.
@@ -51,7 +51,9 @@ Every price answer starts with "starts at" or "usually runs." Every price answer
 | Gutter guards (micro-mesh on existing gutters) | $12 per linear foot on a one-story home, $14 on a two-story, $16 on a three-story, with a $599 minimum. Most installations run $599 to $1,999. |
 | Gutter repair | The service call is $129. It covers diagnosis and minor fixes on the spot. Anything bigger, Dre quotes in writing after he sees it. |
 | House soft wash | Starts at $299. Most homes run $299 to $749 depending on size and stories. |
-| Roof soft wash | Starts at $399. Most one- and two-story roofs run $399 to $749. Three-story roofs Dre prices personally. |
+| Roof soft wash | Not offered. Say: "We are not scheduling roof washes right now. I can book a gutter clean, a house wash, or take a message for Dre." |
+| Holiday lights | Install and takedown is $399 for a one-story front porch and the front roofline. Install and takedown are one price. A bigger run is a written quote before work, not a second bill. Clip-on lights, not new wiring. Book at book.arkansasautomated.com/book/chaffee-holiday-lights. |
+| Porch decorating | $249 for one porch and one holiday, Halloween or Thanksgiving. Maddie sets the porch and takes that set down. Not a yard display. Book at book.arkansasautomated.com/book/chaffee-porch-decor. |
 | Free new-home gutter check | Free 15-minute check for new homes in Chaffee Crossing. Offer it when a Chaffee Crossing caller isn't sure what they need. |
 | Membership | Plans are being finalized. Take their details and have Dre call. |
 | Commercial | Quoted per job. Take details and route to a callback. |
@@ -64,8 +66,8 @@ Use `priority_callback` and **say no number** whenever any of these apply:
 
 - New gutters, seamless gutters, "replace all my gutters," gutter removal, fascia or roof work
 - Guards on a large or three-story home where the caller wants the whole house done
-- Two or more services where one of them is guards (for example, guards plus a roof wash)
-- A three-story roof wash
+- Two or more services where one of them is guards
+- Any roof wash request. Do not quote it. Take a message for Dre.
 - Multiple buildings, commercial, HOA or property-manager portfolios
 - Anything you are not sure how to price from the sheet
 
