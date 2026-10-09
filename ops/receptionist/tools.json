@@ -12,7 +12,7 @@
           "sms_consent": {"type": "boolean"},
           "address": {"type": "string"},
           "subdivision": {"type": "string"},
-          "service": {"type": "string", "enum": ["cleaning", "guards", "repair", "house_wash", "roof_wash", "commercial", "new_home_check", "not_sure", "other"]},
+          "service": {"type": "string", "enum": ["cleaning", "guards", "repair", "house_wash", "holiday_lights", "porch_decor", "roof_wash", "commercial", "new_home_check", "not_sure", "other"]},
           "stories": {"type": "integer", "enum": [1, 2, 3]},
           "home_size": {"type": "string", "description": "sq ft or small/average/large"},
           "preferred_window": {"type": "string"},
@@ -34,7 +34,7 @@
           "phone": {"type": "string"},
           "name": {"type": "string"},
           "address": {"type": "string"},
-          "reason": {"type": "string", "enum": ["possible_over_cap", "new_or_replacement_gutters", "three_story_roof", "multi_service_with_guards", "commercial", "unpriceable", "urgent_water", "caller_requested_dre", "licensing_question"]},
+          "reason": {"type": "string", "enum": ["possible_over_cap", "new_or_replacement_gutters", "roof_wash_request", "multi_service_with_guards", "commercial", "unpriceable", "urgent_water", "caller_requested_dre", "licensing_question"]},
           "urgent": {"type": "boolean"},
           "best_time": {"type": "string"},
           "details": {"type": "string"}
