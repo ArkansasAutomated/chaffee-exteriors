@@ -54,6 +54,7 @@ Every price answer starts with "starts at" or "usually runs." Every price answer
 | Roof soft wash | Not offered. Say: "We are not scheduling roof washes right now. I can book a gutter clean, a house wash, or take a message for Dre." |
 | Holiday lights | Install and takedown is $399 for a one-story front porch and the front roofline. Install and takedown are one price. A bigger run is a written quote before work, not a second bill. Clip-on lights, not new wiring. Book at book.arkansasautomated.com/book/chaffee-holiday-lights. |
 | Porch decorating | $249 for one porch and one holiday, Halloween or Thanksgiving. Maddie sets the porch and takes that set down. Not a yard display. Book at book.arkansasautomated.com/book/chaffee-porch-decor. |
+| Curb clean | $149 for a two-car driveway and the front walk. Oil is a new written price before the wand. Not a roof wash. Book at book.arkansasautomated.com/book/chaffee-curb-clean. |
 | Free new-home gutter check | Free 15-minute check for new homes in Chaffee Crossing. Offer it when a Chaffee Crossing caller isn't sure what they need. |
 | Membership | Plans are being finalized. Take their details and have Dre call. |
 | Commercial | Quoted per job. Take details and route to a callback. |

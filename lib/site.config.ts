@@ -13,6 +13,7 @@ export const site = {
   house: 'https://book.arkansasautomated.com/book/chaffee-house-wash',
   lights: 'https://book.arkansasautomated.com/book/chaffee-holiday-lights',
   porch: 'https://book.arkansasautomated.com/book/chaffee-porch-decor',
+  driveway: 'https://book.arkansasautomated.com/book/chaffee-curb-clean',
  } as const,
  OPENING_HOURS: [] as string[], // Set confirmed hours before publishing.
  RESEND_FROM: 'Chaffee Exteriors <leads@chaffeeexteriors.com>',

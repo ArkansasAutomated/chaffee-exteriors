@@ -23,7 +23,7 @@ const RELATED: Record<string, {href: string; label: string; eyebrow: string}> = 
   'when-to-clean-gutters-river-valley': {href: '/gutter-cleaning', label: 'Gutter cleaning', eyebrow: 'MAINTENANCE / TIMING'},
   'gutter-guards-questions-to-ask': {href: '/gutter-guards', label: 'Gutter guards', eyebrow: 'GUTTER GUARDS / BUYING'},
   'new-chaffee-crossing-homes-gutters': {href: '/lp/chaffee-new-home', label: 'Free new-home gutter check', eyebrow: 'CHAFFEE CROSSING / NEW HOMES'},
-  'soft-wash-vs-pressure-wash': {href: '/soft-wash', label: 'House & roof soft wash', eyebrow: 'SOFT WASH / METHODS'},
+  'soft-wash-vs-pressure-wash': {href: '/soft-wash', label: 'House wash', eyebrow: 'SOFT WASH / METHODS'},
   'pre-listing-exterior-checklist': {href: '/realtors', label: 'Pre-listing exterior service', eyebrow: 'SELLERS & AGENTS / CHECKLIST'},
 };
 

@@ -10,6 +10,7 @@ const services: [string, string, string][] = [
   ['Soft Wash', '/soft-wash', 'House wash from $299'],
   ['Holiday Lights', '/holiday-lights', '$399 install and takedown'],
   ['Porch Decorating', '/porch-decorating', '$249, one holiday'],
+  ['Curb Clean', '/curb-clean', '$149 driveway and front walk'],
   ['For Realtors & Property Managers', '/realtors', 'Pre-listing & turnovers'],
 ];
 

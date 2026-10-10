@@ -11,6 +11,7 @@ const byPath: Record<string, string> = {
   '/soft-wash': site.BOOKING_BY_SERVICE.house,
   '/holiday-lights': site.BOOKING_BY_SERVICE.lights,
   '/porch-decorating': site.BOOKING_BY_SERVICE.porch,
+  '/curb-clean': site.BOOKING_BY_SERVICE.driveway,
   '/lp/gutter-cleaning': site.BOOKING_BY_SERVICE.cleaning,
   '/lp/gutter-guards': site.BOOKING_BY_SERVICE.guards,
   '/lp/chaffee-new-home': site.BOOKING_BY_SERVICE.cleaning,
